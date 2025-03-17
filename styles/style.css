@@ -28,7 +28,7 @@
 
 .header_menu-list {
     display: flex;
-    gap: 31px;
+    gap: 30px;
     left: 30px;
     justify-content:space-evenly;
 }
