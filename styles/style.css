@@ -182,8 +182,10 @@
 
 .cart_type-film {
     background-image: url(/images/card-lot-01.jpg);
+    background-position: center;
     width: 334px;
     height: 596px;
+    background-size: cover;
 }
 
 .cart_type-book {
@@ -328,6 +330,7 @@
 
 .footer-address {
     justify-self: left;
+    font-style: normal;
     max-width: 240px;
     font-weight: 400;
     font-size: 18px;
