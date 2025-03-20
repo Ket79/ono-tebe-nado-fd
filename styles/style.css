@@ -28,11 +28,11 @@
 }
 
 .header_menu-link {
-  text-underline-offset: 4px; 
+  text-underline-offset: 4px;
 }
 
 .header-logo {
-  display: block; 
+  display: block;
   width: 137px;
   height: 105px;
   margin-bottom: 2px;
@@ -43,7 +43,6 @@
   max-width: 240px;
   font-weight: 400;
   font-size: 18px;
-  text-underline-offset: 0.1em;
   text-underline-offset: 3px;
   font-style: normal;
   line-height: 24px;
@@ -241,7 +240,7 @@
 }
 
 .content {
-  display: inline-flexbox;  
+  display: inline-flexbox;
   list-style: none;
   font-size: 40px;
   font-weight: 700;
@@ -292,7 +291,7 @@
   max-width: 240px;
   font-weight: 400;
   font-size: 18px;
-  text-underline-offset: 0.1em;
+  text-underline-offset: 3px;
   line-height: 24px;
   margin-top: 13px;
   margin-left: 38px;
