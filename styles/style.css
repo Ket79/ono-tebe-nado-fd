@@ -1,45 +1,44 @@
 .header {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr; 
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center ;
   font-size: 18px;
-  font-weight: 400;  
+  font-weight: 400;
   width: 1100px;
   height: 293px;
 }
 
-.header_menu { 
+.header_menu {
   display: flex;
   gap: 24px;
-  line-height: 20px;   
-  padding-left: 35px;   
+  line-height: 20px;
+  padding-left: 35px;
 }
 
 .header_menu-item_aktiv {
-  list-style: none;    
+  list-style: none;
 }
 
-.header_menu-list { 
+.header_menu-list {
   display: inline-flex;
   justify-content: center;
   gap: 33px;
-  list-style: circle; 
+  list-style: circle;
   padding-left: 16px;
-  
 }
 
-.header_menu-link {              
-  text-underline-offset: 4px;         
+.header_menu-link {
+  text-underline-offset: 4px; 
 }
 
 .header-logo {
   display: block; 
-  width: 137px;  
+  width: 137px;
   height: 105px;
-  margin-bottom: 2px;    
+  margin-bottom: 2px;
 }
 
-.address {    
+.address {
   justify-self: flex-end;
   max-width: 240px;
   font-weight: 400;
@@ -109,11 +108,11 @@
   .aligned-text_right {
     text-align: right;
     padding-top: 8px;
-    margin-left: 614px;    
+    margin-left: 614px;
   }
   
   .spacing {
-    letter-spacing: 0;    
+    letter-spacing: 0;
   }  
    
   .bet-button {
@@ -176,7 +175,7 @@
   .card_type_book {
     background: url(../images/card-lot-02.jpg);
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
   }
   
   .card_type_picture {
@@ -217,7 +216,7 @@
 
 .about_container {
   display: grid;
-  grid-template-columns: 356px  1fr;   
+  grid-template-columns: 356px  1fr;
 }
 
 .about_logo {
@@ -284,7 +283,7 @@
   align-items: flex-start;
   margin-top: 181px;
   padding: 11px;
-  height: 201px;     
+  height: 201px;
 }
 
 .footer-address {
@@ -294,7 +293,6 @@
   font-weight: 400;
   font-size: 18px;
   text-underline-offset: 0.1em;
-  text-underline-offset: 3px;
   line-height: 24px;
   margin-top: 13px;
   margin-left: 38px;
