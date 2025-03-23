@@ -1,47 +1,46 @@
 .header {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr; 
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center ;
   font-size: 18px;
-  font-weight: 400;  
+  font-weight: 400;
   width: 1100px;
   padding-top: 92px;
   padding-bottom: 96px;
 }
 
-.header_menu { 
+.header_menu {
   display: flex;
   gap: 24px;
-  line-height: 20px;   
-  padding-left: 35px;   
+  line-height: 20px;
+  padding-left: 35px;
 }
 
 .header_menu-item_aktiv {
-  list-style: none;    
+  list-style: none;
 }
 
-.header_menu-list { 
+.header_menu-list {
   display: inline-flex;
   justify-content: center;
   gap: 33px;
-  list-style: circle; 
+  list-style: circle;
   padding-left: 16px;
   
 }
 
-.header_menu-link {              
-  text-underline-offset: 4px; 
+.header_menu-link {
+  text-underline-offset: 4px;
 }
 
 .header-logo {
   display: block;
-  width: 135px;  
+  width: 135px;
   height: 105px;
-  padding-top: 1px;  
-  
+  padding-top: 1px;
 }
 
-.address {    
+.address {
   justify-self: flex-end;
   max-width: 240px;
   font-weight: 400;
@@ -80,8 +79,8 @@
     gap: 5px;
     padding-left: 49px;
     padding-right: 47px;
-    align-items: center;  
-  }
+    align-items: center;
+}
  
   .cover__description-text {
   font-size: 22px;
@@ -120,7 +119,7 @@
 .aligned-text_right {
   text-align: right;
   padding-top: 8px;
-  margin-left: 615px;    
+  margin-left: 615px;
 }
 
 .bet-button {
@@ -196,9 +195,9 @@
   font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
-  text-decoration: underline;  
-  z-index: 2;  
-  word-spacing: 3px
+  text-decoration: underline;
+  z-index: 2;
+  word-spacing: 3px;
 }
 
 .card__text {
@@ -250,7 +249,7 @@
 }
 
 .content {
-  display: inline-flexbox;  
+  display: inline-flexbox;
   list-style: none;
   font-size: 40px;
   font-weight: 700;
