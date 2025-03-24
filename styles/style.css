@@ -80,6 +80,7 @@
     padding-left: 49px;
     padding-right: 47px;
     align-items: center;
+    
 }
  
   .cover__description-text {
@@ -90,6 +91,7 @@
   word-spacing: 18.19px;
   text-transform: uppercase;
   padding-top: 4px;
+  z-index: 1;
 }
 
 .overlay {
@@ -106,6 +108,7 @@
 
 .aligned-text {
   text-align: left;
+  z-index: 1;
 }
   
 .aligned-text_center {
@@ -132,6 +135,7 @@
   border: 1px solid #fff;
   border-radius: 0;
   color: #fff;
+  z-index: 1;
 }
 
 .lots__heading {
@@ -169,7 +173,7 @@
   background-size: cover;
   flex-grow: 1;
   height: 100%;
-  padding: 50px 5px 49px;
+  padding: 48px 5px 45px;
 }
 
 .card_type_film {
@@ -264,21 +268,15 @@
 }
 
 .about_text {
-  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: space-between;
   list-style: none;
   color: black;
   font-size: 20px;
   font-weight: 400;
-}
-
-.about_text_first {
-  margin-top: 101px;
-  margin-left: 26px;
-}
-
-.about_text_second {
-  line-height: 24px;
-  padding-top: 24px;
+  padding-top: 99px;
   padding-left: 25px;
 }
 
@@ -287,10 +285,10 @@
   grid-template-columns: 33.3% 33.3% 33.3%;
   font-size: 18px;
   align-items: flex-start;
-  margin-top: 208px;
+  margin-top: 202px;
   padding-left: 21px;
   padding-right: 10px;
-  margin-bottom: 83px;
+  margin-bottom: 81px;
 }
 
 .footer-address {
